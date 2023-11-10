@@ -100,13 +100,13 @@ DEFAULT_USER='Giraffael'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias giff='git diff'
-alias vpnr='echo 123-/: | sudo openconnect 78.47.21.79:4443  --user=rasa  --servercert pin-sha256:CEhyy4iZusMQUa0mvimEYbBSqydlhr+drL6shk1PZhM='
 
-alias prx='echo 123-/: | sudo openconnect  --user=rasa --script-tun --script "/home/giraffael/temp/ocproxy/ocproxy -D 0.0.0.0:9052" 78.47.21.79:4443 --servercert pin-sha256:CEhyy4iZusMQUa0mvimEYbBSqydlhr+drL6shk1PZhM='
+alias giff='git diff'
 
 alias suspend='systemctl suspend'
 
 alias airpod='cd ~/Downloads/AirStatus; python3 main.py'
 
 alias update='sudo pacman -Syu; yay -Syu'
+
+alias github='google-chrome-stable github.com'
