@@ -107,6 +107,6 @@ alias suspend='systemctl suspend'
 
 alias airpod='cd ~/Downloads/AirStatus; python3 main.py'
 
-alias update='sudo pacman -Syu; yay -Syu'
+alias upgrade='sudo pacman -Syu; yay -Syu; omz update'
 
-alias github='google-chrome-stable github.com'
+alias github='google-chrome-stable github.com/ghazalrafiei'
