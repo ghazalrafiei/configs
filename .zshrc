@@ -110,3 +110,5 @@ alias airpod='cd ~/Downloads/AirStatus; python3 main.py'
 alias upgrade='sudo pacman -Syu; yay -Syu; omz update'
 
 alias github='google-chrome-stable github.com/ghazalrafiei'
+
+alias fuck='cowsay keep calm!'
